@@ -1,0 +1,23 @@
+
+.Question{
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 2;
+}
+.Answer{
+    grid-column: 3 / span 6;
+    grid-row: 2 / span 3;
+    
+}
+.Answers{
+    color: rgb(6, 124, 65);
+}
+.expand{
+    grid-column: 6 / span 1;
+    grid-row: 2 / span 1;
+}
+.close{
+    grid-column: 9 / span 1;
+    grid-row: 2 / span 1;
+}
+
+

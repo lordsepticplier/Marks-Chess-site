@@ -1,0 +1,17 @@
+.contact_con{
+    margin: 50px;
+}
+.card-body {
+    background:#D4D4D4;
+}
+.card{
+    background-color:#D4D4D4;
+}
+.card-text{
+    font-size: 30px;
+}
+@media screen and (max-width: 900px) { 
+    .card-text{
+        font-size: 20px;
+    }
+}

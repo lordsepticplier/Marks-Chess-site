@@ -1,0 +1,18 @@
+#ContactMark {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#MarkForm{
+    color:#000000;
+    background-color:#D4D4D4;
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 2;
+    margin: 50px;
+}
+@media screen and (max-width: 900px) { 
+    #MarkForm{
+        grid-column: 1 / span 6;
+        grid-row: 2 / span 2;
+        
+    }
+}
